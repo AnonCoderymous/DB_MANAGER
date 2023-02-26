@@ -94,7 +94,7 @@
 <?php
 	if($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['adminPassword'])) {
 		extract($_GET);
-		if(!strcmp('www.pimse.edu.in@2022', $adminPassword)){
+		if(!strcmp('adminpasswordgoeshere', $adminPassword)){
 			//Access the DB
 ?>
 	<form action='<?php echo $_SERVER['PHP_SELF'] ?>' method='POST'>

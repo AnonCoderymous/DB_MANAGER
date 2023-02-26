@@ -1,4 +1,4 @@
-								<?php
+<?php
 	error_reporting(0);
 	$protocol=($_SERVER['SERVER_PROTOCOL']==='https') ? 'https://' : 'http://';
 	$URL=$protocol.$_SERVER['HTTP_HOST'];
